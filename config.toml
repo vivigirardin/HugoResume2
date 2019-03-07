@@ -1,0 +1,34 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Viviane Girardin"
+theme = "hugo-resume"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+[params]
+    firstName = "Viviane"
+    lastName = "Girardin"
+    address = "Oslo, Norway"
+    phone = "+47-97944071"
+    profileImage = "img/VivianeG.jpg"
+    email = "girardin.vivi@gmail.com"
+    description = "Toxicologist and R enthusiast."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = false
+    showOpenSource = false
+    showPublications = false
+    showExperience = true
+    showEducation = true
+
+    showQr =false
+
+[[params.handles]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/viviane-girardin/"
+
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/vivigirardin/"
+
+
